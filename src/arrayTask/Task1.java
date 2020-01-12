@@ -21,7 +21,8 @@ public class Task1 {
     }
 
     /**
-     * sumOfArrayElements function will return sum of Array*/
+     * sumOfArrayElements function will return sum of Array
+     */
 
     public static int sumOfArrayElements(int[] array) {
         int sum=0;
