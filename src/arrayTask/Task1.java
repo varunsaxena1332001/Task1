@@ -29,6 +29,10 @@ public class Task1 {
         return count;
     }
 
+    /**
+     * insertValueIntoArray function is used to insert the values in the array
+     * */
+
     public static void insertValueIntoArray(int[] array) {
         for(int i=0 ; i<10 ; i++){
             array[i]=sc.nextInt();
