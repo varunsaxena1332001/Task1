@@ -5,19 +5,24 @@ import java.util.Scanner;
 
 public class Task1 {
     static Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) {
         int[] array = new int[10];
         printArrayElements(array);
         insertValueIntoArray(array);
         printArrayElements(array);
         int sum = sumOfArrayElements(array);
-        System.out.println("Sum Of Elements ="+sum);
+        System.out.println("Sum Of Elements =" + sum);
         double average = getAverage(sum);
-        System.out.println("Average Of Array Elements"+average);
+        System.out.println("Average Of Array Elements" + average);
     }
 
+    /**
+     * getAverage function will return the average of all elements of an array
+     */
+
     public static double getAverage(double sum) {
-        return sum /10;
+        return sum / 10;
     }
 
     /**
