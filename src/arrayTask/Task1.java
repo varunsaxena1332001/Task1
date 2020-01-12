@@ -10,23 +10,25 @@ public class Task1 {
         printArrayElements(array);
         insertValueIntoArray(array);
         printArrayElements(array);
-        int count = sumOfArrayElements(array);
-        System.out.println("Sum Of Elements ="+count);
-        double average = getAverage(count);
+        int sum = sumOfArrayElements(array);
+        System.out.println("Sum Of Elements ="+sum);
+        double average = getAverage(sum);
         System.out.println("Average Of Array Elements"+average);
     }
 
-    public static double getAverage(double count) {
-        return count /10;
+    public static double getAverage(double sum) {
+        return sum /10;
     }
 
+    /**
+     * sumOfArrayElements function will return sum of Array*/
 
     public static int sumOfArrayElements(int[] array) {
-        int count=0;
+        int sum=0;
         for(int i=0;i<10;i++){
-            count=count+array[i];
+            sum=sum+array[i];
         }
-        return count;
+        return sum;
     }
 
     /**
